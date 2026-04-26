@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>개인정보처리방침 - SlimPumpkin</title>
+    <meta name="robots" content="noindex" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&amp;display=swap"
+        rel="stylesheet" />
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="SlimPumpkin" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec5b13",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221610",
+                    },
+                    fontFamily: {
+                        "display": ["Noto Sans KR", "Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .bg-mesh {
+            background-color: #f8f6f6;
+            background-image: radial-gradient(at 0% 0%, rgba(236, 91, 19, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(34, 161, 65, 0.1) 0px, transparent 50%);
+        }
+
+        .dark .bg-mesh {
+            background-color: #221610;
+            background-image: radial-gradient(at 0% 0%, rgba(236, 91, 19, 0.2) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(34, 161, 65, 0.15) 0px, transparent 50%);
+        }
+    </style>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display transition-colors duration-300">
+    <div class="relative flex min-h-screen w-full flex-col overflow-hidden bg-mesh">
+        <main class="flex flex-1 items-start justify-center px-6 py-16 md:px-20 lg:px-40">
+            <div class="max-w-3xl w-full">
+                <div class="space-y-6">
+                    <span
+                        class="inline-block px-4 py-1.5 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 text-xs font-bold uppercase tracking-widest">개인정보처리방침</span>
+                    <h1
+                        class="text-3xl md:text-4xl lg:text-5xl font-black leading-tight tracking-tight text-slate-900 dark:text-white">
+                        SlimPumpkin <span class="text-primary">개인정보처리방침</span>
+                    </h1>
+                    <p class="text-sm text-slate-500 dark:text-slate-500">최종 업데이트: 2026년 4월 26일</p>
+                </div>
+
+                <div class="mt-10 space-y-8 text-slate-700 dark:text-slate-300 leading-relaxed">
+                    <section class="space-y-3">
+                        <h2 class="text-xl font-bold text-slate-900 dark:text-white">1. 수집하는 개인정보 항목</h2>
+                        <p>SlimPumpkin(이하 "회사")은 서비스 제공을 위해 다음 항목을 수집할 수 있습니다.</p>
+                        <ul class="list-disc list-inside space-y-1 pl-2">
+                            <li>계정 정보: 이메일 주소, 닉네임, 프로필 이미지 (소셜 로그인 시 해당 플랫폼에서 제공받는 범위)</li>
+                            <li>서비스 이용 정보: 식사 기록, 영양소 섭취 순서, 체중 변화 등 사용자가 직접 입력한 데이터</li>
+                            <li>기기 및 로그 정보: 기기 식별자, OS 버전, 앱 버전, 접속 일시</li>
+                        </ul>
+                    </section>
+
+                    <section class="space-y-3">
+                        <h2 class="text-xl font-bold text-slate-900 dark:text-white">2. 개인정보의 이용 목적</h2>
+                        <ul class="list-disc list-inside space-y-1 pl-2">
+                            <li>회원 식별 및 로그인 인증</li>
+                            <li>식사·체중 관리 코칭 등 핵심 기능 제공</li>
+                            <li>서비스 개선을 위한 통계 분석</li>
+                            <li>고객 문의 응대</li>
+                        </ul>
+                    </section>
+
+                    <section class="space-y-3">
+                        <h2 class="text-xl font-bold text-slate-900 dark:text-white">3. 보유 및 이용 기간</h2>
+                        <p>회원 탈퇴 또는 삭제 요청 시 30일 이내에 모든 개인정보를 파기합니다. 단, 관련 법령에 따라 보존이 필요한 정보는 해당 기간 동안 보관합니다.</p>
+                    </section>
+
+                    <section class="space-y-3">
+                        <h2 class="text-xl font-bold text-slate-900 dark:text-white">4. 제3자 제공</h2>
+                        <p>회사는 사용자의 동의 없이 개인정보를 외부에 제공하지 않습니다. 단, 법령에 의해 요구되는 경우는 예외로 합니다.</p>
+                    </section>
+
+                    <section class="space-y-3">
+                        <h2 class="text-xl font-bold text-slate-900 dark:text-white">5. 사용자 권리</h2>
+                        <p>사용자는 언제든지 본인의 개인정보에 대한 열람·정정·삭제·처리정지를 요청할 수 있습니다. 계정 및 데이터 삭제 절차는 <a href="/data-deletion" class="text-primary font-semibold underline underline-offset-4 hover:opacity-80">데이터 삭제 안내</a> 페이지를 참고하시기 바랍니다.</p>
+                    </section>
+
+                    <section class="space-y-3">
+                        <h2 class="text-xl font-bold text-slate-900 dark:text-white">6. 문의</h2>
+                        <p>개인정보 처리 관련 문의는 <a href="mailto:cs@slimpumpkin.com" class="text-primary font-semibold underline underline-offset-4 hover:opacity-80">cs@slimpumpkin.com</a>으로 연락해 주시기 바랍니다.</p>
+                    </section>
+
+                    <p class="text-sm text-slate-500 dark:text-slate-500 pt-4 border-t border-slate-200 dark:border-slate-700">
+                        본 방침은 임시 게시본이며, 정식 서비스 출시 시 갱신될 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer class="px-6 py-8 md:px-20 lg:px-40">
+            <p class="text-slate-500 dark:text-slate-500 text-sm font-medium">© 2025 SlimPumpkin. All rights
+                reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
